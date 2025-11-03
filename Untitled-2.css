@@ -1,0 +1,75 @@
+body {
+    background-color: goldenrod;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: orangered;
+    padding: 15px;
+    color: white;
+}
+
+.Batya, .Batya2 {
+    justify-content: center;
+    flex-wrap:wrap;
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.chypik, .panamelo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.shket, .shket2, .shket3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.shket {
+    color: black;
+    border: 2px solid orangered;
+    background-color: blueviolet;
+}
+
+.shket2 {
+    color: pink;
+    border: 1px solid red;
+    background-color: green;
+    font-size: 30px;
+}
+
+.shket3 {
+    color: pink;
+    border: 1px solid teal;
+    background-color: indigo;
+}
+
+.shket:hover, .shket2:hover, .shket3:hover {
+    background-color: springgreen;
+    color: white;
+}
+
+button {
+    background-color: pink;
+    color: orangered;
+    margin: 15px;
+    padding: 20px;
+    border: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: orangered;
+    color: white;
+}
+
